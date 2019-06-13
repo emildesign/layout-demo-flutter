@@ -38,7 +38,7 @@ class ExpandedPage extends StatelessWidget implements HasLayoutGroup {
   }
 
   Size _goldenRatio(BoxConstraints constraints) {
-    double ratio = 13.0 / 8.0;
+    double ratio = 13.0 / 5.0;
     if (constraints.maxHeight / constraints.maxWidth > ratio) {
       double height = constraints.maxWidth * ratio;
       return Size(constraints.maxWidth, height);
